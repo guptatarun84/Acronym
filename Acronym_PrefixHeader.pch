@@ -1,0 +1,15 @@
+//
+//  Acronym_PrefixHeader.pch
+//  Acronym
+//
+//  Created by Tarun Gupta on 2/24/17.
+//  Copyright © 2017 Tarun Gupta. All rights reserved.
+//
+
+#ifndef Acronym_PrefixHeader_pch
+#define Acronym_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Acronym_PrefixHeader_pch */
