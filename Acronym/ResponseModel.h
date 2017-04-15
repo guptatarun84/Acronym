@@ -10,4 +10,12 @@
 
 @interface ResponseModel : NSObject
 
+@property(nonatomic,strong)NSMutableArray *contentArray;
+
+
+/*!
+ * This method set properties values from given dictionary
+ */
+-(void)setParametersValueFromDict:(NSDictionary *)tagInfoDict;
+    
 @end

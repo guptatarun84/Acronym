@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		EF39A8A91E5E052500B186F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39A8A81E5E052500B186F6 /* main.m */; };
 		EF39A8AC1E5E052500B186F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39A8AB1E5E052500B186F6 /* AppDelegate.m */; };
-		EF39A8AF1E5E052500B186F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39A8AE1E5E052500B186F6 /* ViewController.m */; };
 		EF39A8B21E5E052500B186F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF39A8B01E5E052500B186F6 /* Main.storyboard */; };
 		EF39A8B51E5E052500B186F6 /* Acronym.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF39A8B31E5E052500B186F6 /* Acronym.xcdatamodeld */; };
 		EF39A8B71E5E052500B186F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF39A8B61E5E052500B186F6 /* Assets.xcassets */; };
 		EF39A8BA1E5E052500B186F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF39A8B81E5E052500B186F6 /* LaunchScreen.storyboard */; };
+		EF39A8C91E5E15D900B186F6 /* AcronymViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39A8C71E5E15D900B186F6 /* AcronymViewController.m */; };
+		EF39A8CA1E5E15D900B186F6 /* AcronymViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF39A8C81E5E15D900B186F6 /* AcronymViewController.xib */; };
+		EF39A8D91E5E267700B186F6 /* AcronymNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39A8D81E5E267700B186F6 /* AcronymNetworkEngine.m */; };
+		EF39A8E41E60840300B186F6 /* ANetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39A8E31E60840300B186F6 /* ANetworkOperation.m */; };
+		EF39A8F11E6093D000B186F6 /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39A8F01E6093D000B186F6 /* ResponseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +25,21 @@
 		EF39A8A81E5E052500B186F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF39A8AA1E5E052500B186F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF39A8AB1E5E052500B186F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF39A8AD1E5E052500B186F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF39A8AE1E5E052500B186F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF39A8B11E5E052500B186F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF39A8B41E5E052500B186F6 /* Acronym.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Acronym.xcdatamodel; sourceTree = "<group>"; };
 		EF39A8B61E5E052500B186F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF39A8B91E5E052500B186F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF39A8BB1E5E052500B186F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF39A8C61E5E15D900B186F6 /* AcronymViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcronymViewController.h; sourceTree = "<group>"; };
+		EF39A8C71E5E15D900B186F6 /* AcronymViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcronymViewController.m; sourceTree = "<group>"; };
+		EF39A8C81E5E15D900B186F6 /* AcronymViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AcronymViewController.xib; sourceTree = "<group>"; };
+		EF39A8D71E5E267700B186F6 /* AcronymNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcronymNetworkEngine.h; path = ../AcronymNetworkEngine.h; sourceTree = "<group>"; };
+		EF39A8D81E5E267700B186F6 /* AcronymNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcronymNetworkEngine.m; path = ../AcronymNetworkEngine.m; sourceTree = "<group>"; };
+		EF39A8E21E60840300B186F6 /* ANetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANetworkOperation.h; path = ../ANetworkOperation.h; sourceTree = "<group>"; };
+		EF39A8E31E60840300B186F6 /* ANetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANetworkOperation.m; path = ../ANetworkOperation.m; sourceTree = "<group>"; };
+		EF39A8EF1E6093D000B186F6 /* ResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResponseModel.h; path = Acronym/ResponseModel.h; sourceTree = "<group>"; };
+		EF39A8F01E6093D000B186F6 /* ResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResponseModel.m; path = Acronym/ResponseModel.m; sourceTree = "<group>"; };
+		EF39A8F81E60A45600B186F6 /* Acronym_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Acronym_PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,7 @@
 		EF39A89B1E5E052500B186F6 = {
 			isa = PBXGroup;
 			children = (
+				EF39A8F81E60A45600B186F6 /* Acronym_PrefixHeader.pch */,
 				EF39A8A61E5E052500B186F6 /* Acronym */,
 				EF39A8A51E5E052500B186F6 /* Products */,
 			);
@@ -60,16 +73,19 @@
 		EF39A8A61E5E052500B186F6 /* Acronym */ = {
 			isa = PBXGroup;
 			children = (
+				EF39A8F21E609EBA00B186F6 /* Model */,
+				EF39A8D01E5E262900B186F6 /* NetworkManager */,
 				EF39A8AA1E5E052500B186F6 /* AppDelegate.h */,
 				EF39A8AB1E5E052500B186F6 /* AppDelegate.m */,
-				EF39A8AD1E5E052500B186F6 /* ViewController.h */,
-				EF39A8AE1E5E052500B186F6 /* ViewController.m */,
 				EF39A8B01E5E052500B186F6 /* Main.storyboard */,
 				EF39A8B61E5E052500B186F6 /* Assets.xcassets */,
 				EF39A8B81E5E052500B186F6 /* LaunchScreen.storyboard */,
 				EF39A8BB1E5E052500B186F6 /* Info.plist */,
 				EF39A8B31E5E052500B186F6 /* Acronym.xcdatamodeld */,
 				EF39A8A71E5E052500B186F6 /* Supporting Files */,
+				EF39A8C61E5E15D900B186F6 /* AcronymViewController.h */,
+				EF39A8C71E5E15D900B186F6 /* AcronymViewController.m */,
+				EF39A8C81E5E15D900B186F6 /* AcronymViewController.xib */,
 			);
 			path = Acronym;
 			sourceTree = "<group>";
@@ -80,6 +96,27 @@
 				EF39A8A81E5E052500B186F6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF39A8D01E5E262900B186F6 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				EF39A8D71E5E267700B186F6 /* AcronymNetworkEngine.h */,
+				EF39A8D81E5E267700B186F6 /* AcronymNetworkEngine.m */,
+				EF39A8E21E60840300B186F6 /* ANetworkOperation.h */,
+				EF39A8E31E60840300B186F6 /* ANetworkOperation.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		EF39A8F21E609EBA00B186F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF39A8EF1E6093D000B186F6 /* ResponseModel.h */,
+				EF39A8F01E6093D000B186F6 /* ResponseModel.m */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +179,7 @@
 			files = (
 				EF39A8BA1E5E052500B186F6 /* LaunchScreen.storyboard in Resources */,
 				EF39A8B71E5E052500B186F6 /* Assets.xcassets in Resources */,
+				EF39A8CA1E5E15D900B186F6 /* AcronymViewController.xib in Resources */,
 				EF39A8B21E5E052500B186F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,10 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF39A8AF1E5E052500B186F6 /* ViewController.m in Sources */,
 				EF39A8B51E5E052500B186F6 /* Acronym.xcdatamodeld in Sources */,
 				EF39A8AC1E5E052500B186F6 /* AppDelegate.m in Sources */,
+				EF39A8E41E60840300B186F6 /* ANetworkOperation.m in Sources */,
+				EF39A8C91E5E15D900B186F6 /* AcronymViewController.m in Sources */,
 				EF39A8A91E5E052500B186F6 /* main.m in Sources */,
+				EF39A8F11E6093D000B186F6 /* ResponseModel.m in Sources */,
+				EF39A8D91E5E267700B186F6 /* AcronymNetworkEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +315,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = /Users/tarungupta/Documents/Acronym/Acronym_PrefixHeader.pch;
 				INFOPLIST_FILE = Acronym/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.TringApps.Reservation-Swift.Acronym";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.something-something.Acronym";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -285,9 +328,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = /Users/tarungupta/Documents/Acronym/Acronym_PrefixHeader.pch;
 				INFOPLIST_FILE = Acronym/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.TringApps.Reservation-Swift.Acronym";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.something-something.Acronym";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -311,6 +356,7 @@
 				EF39A8C01E5E052500B186F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -8,6 +8,16 @@
 
 #import "ResponseModel.h"
 
-@implementation ResponseModel
+static NSString* const kALongFormTitle  = @"lfs";
+static NSString* const kALongFormSubTitle  = @"lf";
 
+@implementation ResponseModel
+	
+-(void)setParametersValueFromDict:(NSDictionary *)tagInfoDict {
+	if(!tagInfoDict)
+		return;
+	self.contentArray = [[NSMutableArray alloc] init];
+	[self setContentArray:[[[tagInfoDict valueForKey:kALongFormTitle] valueForKey:kALongFormSubTitle] firstObject]];
+}
+		
 @end
